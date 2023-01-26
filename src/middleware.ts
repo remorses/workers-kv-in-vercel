@@ -4,8 +4,9 @@ import KvStorage from 'cloudflare-kv-storage-rest'
 const { ACCOUNTID, KEY } = process.env
 
 const store = new KvStorage({
-    namespace: 'f45552a9362641d4b5b34f5b7211fff4',
+    namespace: 'testing-kv',
     accountId: ACCOUNTID,
+    authEmail: 'beats.by.morse@gmail.com',
     authKey: KEY,
     fetch,
     FormData,
