@@ -1,3 +1,4 @@
+// @ts-ignore
 import KvStorage from 'cloudflare-kv-storage-rest'
 
 const { ACCOUNTID, KEY } = process.env
