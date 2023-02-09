@@ -31,7 +31,10 @@ importers:
 
   worker:
     specifiers:
+      '@cloudflare/workers-types': ^4.20230115.0
       wrangler: 2.8.1
+    dependencies:
+      '@cloudflare/workers-types': 4.20230115.0
     devDependencies:
       wrangler: 2.8.1
 
@@ -42,6 +45,10 @@ packages:
     dependencies:
       mime: 3.0.0
     dev: true
+
+  /@cloudflare/workers-types/4.20230115.0:
+    resolution: {integrity: sha512-GPJEiO8AFN+jUpA+DHJ1qdVmk4s/hq8JYKjOV/+U7avGquQbVnj905+Kg6uAEfrq16muwmRKl+XJGqsvlBlDNg==}
+    dev: false
 
   /@esbuild-plugins/node-globals-polyfill/0.1.1_esbuild@0.14.51:
     resolution: {integrity: sha512-MR0oAA+mlnJWrt1RQVQ+4VYuRJW/P2YmRTv1AsplObyvuBMnPHiizUF95HHYiSsMGLhyGtWufaq2XQg6+iurBg==}

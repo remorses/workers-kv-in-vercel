@@ -9,5 +9,8 @@
     "start": "wrangler dev",
     "deploy": "wrangler publish",
     "test": "vitest"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20230115.0"
   }
 }

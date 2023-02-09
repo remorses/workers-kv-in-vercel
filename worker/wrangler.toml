@@ -1,3 +1,6 @@
-name = "worker"
+name = "try-worker-in-vercel"
 main = "src/index.ts"
 compatibility_date = "2023-02-09"
+
+
+kv_namespaces = [{ binding = "CACHE", id = "0e912b865ffc40dcaca6aef9fbab075a" }]
